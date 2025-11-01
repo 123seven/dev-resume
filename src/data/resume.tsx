@@ -241,6 +241,63 @@ export const DATA = {
       ],
       video: "",
     },
+    {
+      title: "Quswer",
+      href: "https://chromewebstore.google.com/detail/quswer-ai-app/nbgkcilgdckehkhlndmdgajbhjhjgjim",
+      dates: "November 2024 - March 2025",
+      active: true,
+      description:
+        "An AI dialogue client that is a browser plugin, supporting custom model providers.",
+      technologies: ["React", "Typescript", "TailwindCSS", "Plasmo", "Chrome Extension API"],
+      links: [
+        {
+          type: "Chrome Web Store",
+          href: "https://chromewebstore.google.com/detail/quswer-ai-app/nbgkcilgdckehkhlndmdgajbhjhjgjim",
+          icon: <Icons.google className="size-3" />,
+        },
+      ],
+      features: [
+        "AI Chat client",
+        "Custom model providers",
+      ],
+      image: "/quswer.png",
+      screenshots: [],
+      video: "",
+    },
+    {
+      title: "DeePlayer",
+      href: "https://deeplayer.feifeiduck.com",
+      dates: "March 2025 - Today",
+      active: true,
+      description:
+        "DeePlayer is a modern multimedia player that supports all video formats, intelligent media management, and cloud resource integration to create a cinema-grade viewing experience for you.",
+      technologies: ["React Native", "Typescript", "Expo", "Native Modules", "ffmpeg", "Audio、video playback"],
+      links: [
+        {
+          type: "Website",
+          href: "https://deeplayer.feifeiduck.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "App Store",
+          href: "https://apps.apple.com/us/app/deeplayer-create-home-theater/id6744684471",
+          icon: <Icons.apple className="size-3" />,
+        },
+      ],
+      features: [
+        "All video formats support",
+        "Intelligent media management",
+        "Cloud resource integration",
+        "Plex and Emby media server support"
+      ],
+      image: "/deeplayer.png",
+      screenshots: [
+        "/deeplayer-1.png",
+        "/deeplayer-2.png",
+        "/deeplayer-3.png",
+      ],
+      video: "",
+    },
   ] as const satisfies readonly Project[],
   hackathons: [],
 } as const;
