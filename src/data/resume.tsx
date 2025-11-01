@@ -70,7 +70,7 @@ export const DATA = {
   projects: [
     {
       title: "i18n",
-      href: "https://i18n.usefa.top",
+      href: "",
       dates: "July 2024 - Today",
       active: true,
       description:
@@ -86,13 +86,7 @@ export const DATA = {
         "NextAuth",
         "Serverless",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://i18n.usefa.top",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      links: [],
       features: [],
       screenshots: [],
       image: "/i18n.jpg",
