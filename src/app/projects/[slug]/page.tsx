@@ -4,10 +4,11 @@ import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { toProjectSlug } from "@/lib/utils";
 
 export default function ProjectPage({ params }: { params: { slug: string } }) {
   const project = DATA.projects.find(
-    (p) => p.title.toLowerCase() === params.slug.toLowerCase()
+    (p) => toProjectSlug(p.title) === params.slug.toLowerCase()
   );
 
   if (!project) {

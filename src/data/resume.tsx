@@ -292,6 +292,88 @@ export const DATA = {
       ],
       video: "",
     },
+    {
+      title: "CapyPlayer",
+      href: "https://capyplayer.feifeiduck.com/",
+      dates: "November 2025 - Today",
+      active: true,
+      description:
+        "CapyPlayer is a cross-platform media server client for Emby, Plex, Jellyfin, fnOS, and NAS libraries, with 4K HDR playback, multiple decoding engines, casting, downloads, and local-first sync.",
+      technologies: [
+        "Flutter",
+        "Dart",
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Native Players",
+        "Emby",
+        "Plex",
+        "Jellyfin",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://capyplayer.feifeiduck.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "App Store",
+          href: "https://apps.apple.com/app/capyplayer-mediaserver-client/id6755650660",
+          icon: <Icons.apple className="size-3" />,
+        },
+        {
+          type: "Google Play",
+          href: "https://play.google.com/store/apps/details?id=com.feifeiduck.capyplayer",
+          icon: <Icons.google className="size-3" />,
+        },
+      ],
+      features: [
+        "Emby, Plex, Jellyfin, fnOS, and NAS media library support",
+        "4K HDR, Dolby, subtitles, and full-format video playback",
+        "Multiple playback engines with casting and offline downloads",
+        "Cross-platform support for mobile and desktop",
+      ],
+      image: "/capyplayer.png",
+      screenshots: ["/capyplayer-1.png", "/capyplayer-2.png"],
+      video: "",
+    },
+    {
+      title: "BlackCat Ledger",
+      href: "https://blackcat.feifeiduck.com/",
+      dates: "2026 - Today",
+      active: true,
+      description:
+        "BlackCat Ledger is a privacy-first personal bookkeeping and asset-tracking app that brings spending, accounts, budgets, possessions, and subscriptions into one clear view, with encrypted backups and optional iCloud or WebDAV sync.",
+      technologies: [
+        "iOS",
+        "iCloud",
+        "WebDAV",
+        "Face ID",
+        "Multi-currency",
+        "AI Bookkeeping",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://blackcat.feifeiduck.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      features: [
+        "Expense, income, transfer, and multi-currency bookkeeping",
+        "Asset, subscription, reimbursement, and savings-plan tracking",
+        "Budgets, cash-flow reports, and long-term asset insights",
+        "Encrypted backups with optional iCloud or WebDAV sync",
+      ],
+      image: "/blackcat.png",
+      screenshots: [
+        "/blackcat-1.webp",
+        "/blackcat-2.webp",
+        "/blackcat-3.webp",
+      ],
+      video: "",
+    },
   ] as const satisfies readonly Project[],
   hackathons: [],
 } as const;

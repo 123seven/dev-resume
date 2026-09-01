@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { cn } from "@/lib/utils";
+import { cn, toProjectSlug } from "@/lib/utils";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -46,7 +46,7 @@ export function ProjectCard({
       }
     >
       <Link
-        href={href ? `/projects/${title.toLowerCase()}` : "#"}
+        href={href ? `/projects/${toProjectSlug(title)}` : "#"}
         className={cn("block cursor-pointer", className)}
       >
         {video && (
